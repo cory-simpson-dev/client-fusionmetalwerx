@@ -361,6 +361,17 @@ input, select, textarea {
 			width: 33.33333%;
 		}
 
+		.row > .col-4.special {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+		}
+
+		.row > .col-4.special footer {
+			display: flex;
+			justify-content: center;
+		}
+
 		.row > .off-4 {
 			margin-left: 33.33333%;
 		}
@@ -390,7 +401,7 @@ input, select, textarea {
 		}
 
 		.row > .col-8 {
-			width: 66.66667%;
+			width: 100%;
 		}
 
 		.row > .off-8 {
@@ -600,9 +611,9 @@ input, select, textarea {
 					margin-left: 25%;
 				}
 
-				.row > .col-4-wide {
+				/* .row > .col-4-wide {
 					width: 33.33333%;
-				}
+				} */
 
 				.row > .off-4-wide {
 					margin-left: 33.33333%;
@@ -845,9 +856,9 @@ input, select, textarea {
 					margin-left: 25%;
 				}
 
-				.row > .col-4-normal {
+				/* .row > .col-4-normal {
 					width: 33.33333%;
-				}
+				} */
 
 				.row > .off-4-normal {
 					margin-left: 33.33333%;
@@ -1089,10 +1100,10 @@ input, select, textarea {
 				.row > .off-3-narrow {
 					margin-left: 25%;
 				}
-
+/* 
 				.row > .col-4-narrow {
 					width: 33.33333%;
-				}
+				} */
 
 				.row > .off-4-narrow {
 					margin-left: 33.33333%;
@@ -1335,9 +1346,9 @@ input, select, textarea {
 					margin-left: 25%;
 				}
 
-				.row > .col-4-mobile {
+				/* .row > .col-4-mobile {
 					width: 33.33333%;
-				}
+				} */
 
 				.row > .off-4-mobile {
 					margin-left: 33.33333%;
@@ -2182,11 +2193,12 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("../../images/logo.jpg");
-		background-size: auto, contain;
+		background-color: #fff;
+		/* background-image: url("images/overlay.png"), url("../../images/logo.jpg");
+		background-size: 100% auto;
 		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		padding: 14em 0 14em 0;
+		background-repeat: repeat, no-repeat; */
+		padding: 3em 0 0 0;
 		text-align: center;
 		color: #fff;
 	}
@@ -2210,6 +2222,11 @@ input, select, textarea {
 			padding-top: 1.5em;
 		}
 
+	#header img {
+		width: 40%;
+		height: auto;
+	}
+	
 /* Main Sections */
 
 	.main {
@@ -2322,7 +2339,12 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 12em 0 12em 0;
+				padding: 3em 0 0 0;
+			}
+
+			#header img {
+				width: 40%;
+				height: auto;
 			}
 
 		/* Main Sections */
@@ -2370,7 +2392,7 @@ input, select, textarea {
 
 			#header {
 				margin: 0 !important;
-				padding: 8em 2em 8em 2em;
+				padding: 3em 0 0 0;
 			}
 
 				#header header p {
@@ -2471,9 +2493,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 20px 6em 20px;
+				padding: 3em 20px 0 20px;
 			}
 
+			#header img {
+				width: 70%;
+				height: auto;
+			}
 				#header > header {
 					padding: 0 1em 0 1em;
 				}
