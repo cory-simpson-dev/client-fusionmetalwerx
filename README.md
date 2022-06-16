@@ -1,7 +1,6 @@
 # Fusion Metal Werx, LLC.
 
-Static website for local Las Vegas client, using HTML, CSS, JS.
-
+Static website for local Las Vegas client, using HTML, CSS, JS. Hosted on netlify.
 
 ## Acknowledgements
 
